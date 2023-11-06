@@ -1,0 +1,19 @@
+package {{packageName}};
+
+public class {{className}} {
+    private {{fieldType}} {{fieldName}};
+
+    public {{className}}({{fieldType}} {{fieldName}}) {
+        super();
+        this.{{fieldName}} = {{fieldName}};
+    }
+
+    public {{fieldType}} {{getterMethod}}() {
+        return {{fieldName}};
+    }
+
+    public void {{setterMethod}}({{fieldType}} {{fieldName}}) {
+        this.{{fieldName}} = {{fieldName}};
+    }
+}
+
